@@ -257,3 +257,21 @@ body {
         height: 270px;
     }
 }
+
+@media screen and (max-width: 368px) {
+    .glass-nav {
+        border-radius: 30px;
+        padding: 5px 12px;
+        top: 5px;
+    }
+    .logo{
+        font-size: 0.9rem;
+    }
+     .navbar-toggler {
+        font-size: 20px;
+    }
+    .navbar-nav a{
+        font-size: 1rem;
+    }
+
+}
